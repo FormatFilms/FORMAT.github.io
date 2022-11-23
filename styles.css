@@ -1,0 +1,262 @@
+@font-face {
+  font-family: 'margindemo';
+  src: url(WabbitSansRegular-LDOZ.ttf);
+}
+
+@font-face {
+  font-family: 'wonder';
+  src: url(MagicalStylishSansSerifDemo-qLKq.otf) format(Opentype);
+}
+ 
+.mainvideo {
+  border: solid;
+  border-width: 50px;
+  border-radius: 30px;
+  background-color: black;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffefd6;
+}
+.nav img {
+  background-color:#ffefd6;
+    padding-block: 45vh;
+    max-width: 10vh;
+    max-height: 10vh;
+}
+
+.col1 {
+  width: 100px;
+  height: 200px;
+  background-color: #ffefd6;
+  float: left;
+}
+
+.col2 {
+  width: 155px;
+  height: 12px;
+  border-radius: 0px 25px 0px 0px;
+  background-color: #d9a74a;
+  float: left;
+}
+
+.col3 {
+  width: 145px;
+  height: 12px;
+  border-radius: 0px 25px 0px 0px;
+  background-color: #e0632c;
+  float: left;
+}
+
+.col4 {
+  width: 130px;
+  height: 12px;
+  border-radius: 0px 25px 0px 0px;
+  background-color: #c82337;
+  float: left;
+}
+
+.col5 {
+  width: 120px;
+  height: 12px;
+  border-radius: 0px 25px 0px 0px;
+  background-color: black;
+  float: left;
+}
+
+.nav {
+  background-color: #ffefd6;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+
+.nav a {
+   font-family: "margindemo";
+    font-weight: 300;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    opacity: 100%;
+}
+
+.nav h1 {
+  font-family: "margindemo";
+  background-color: #ffefd6;
+    text-transform: uppercase;
+    font-weight: 800;
+    opacity: 100%; 
+    text-align: center;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* The sidebar menu */
+.nav {
+  background-color: #ffefd6;
+    height: 200%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 100px; /* Stay at the top */
+    left: 0; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+.nav a {
+    font-family: "wonder";
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  /*nav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 60px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .nav {padding-top: 15px;}
+    .nav a {font-size: 18px;}
+  }
+
+  /* Main body text style */
+  .main p {
+      font-family: sans-serif;
+      font-weight: 100;
+      font-size: 13px;
+}
+
+/* for contact picture */
+.box {
+  background-color: #ffefd6;
+  background-image: url(contact.JPG);
+  padding: 200px 100px;
+  margin: 100px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.box p {
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  text-align: center;
+  color: black;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: .04em;
+  text-transform: none;
+}
+
+.main h1 {
+  font-family: "margindemo";
+  font-size: 150%;
+}
+
+.main h2 {
+  font-family: "margindemo";
+  font-size: 100%;
+}
+
+.contact_button {
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin: auto;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-size: 150%;
+  border-style: none;
+  background-color: #ffefd6;
+}
+
+.hometitle {
+  background-color: #ffefd6;
+  font-weight: 800;
+  height: 200%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 10px; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+.hometitle a {
+  font-family: "margindemo";
+  text-transform: uppercase;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  letter-spacing: 5px;
+  font-size: 55px;
+  color: black;
+  display: block;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 36px 10px;
+}
+
+.main h1 {
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-size: 150%;
+}
+
+.main h2 {
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-size: 100%;
+}
+
+
+/* Animations */
+.main {
+  animation: fadeInFromNone 1s ease-out;
+}
+
+.mainvideo {
+  overflow: hidden;
+  animation: fadeInFromNone 1s ease-out;
+}
+
+@keyframes fadeInFromNone {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  40% {
+      display: block;
+      opacity: 0;
+  }
+
+  100% {
+      display: block;
+      opacity: 1;
+  }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
